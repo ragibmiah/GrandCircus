@@ -1,0 +1,14 @@
+﻿<Properties StartupConfiguration="{596754B7-9CBD-4675-92E2-28B44796A735}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="../PreworkLab/PreworkLab1/Prelab1">
+    <Files>
+      <File FileName="../PreworkLab/PreworkLab1/Prelab1" Line="72" Column="22" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Prelab2 PreferredExecutionTarget="MonoDevelop.Default" />
+  <MultiItemStartupConfigurations />
+</Properties>

@@ -1,0 +1,48 @@
+﻿using System;
+
+namespace Prelab2
+{
+    class MainClass
+    {
+        public static void Main(string[] args)
+        {
+            bool result = true;
+
+            while (result == true)
+            {
+                try
+                {
+                    Console.WriteLine("Please enter a date (MM/DD/YYYY)");
+                    string dateOne = Console.ReadLine().ToLower();
+                    Console.WriteLine("Please enter a second date (MM/DD/YYYY)");
+                    string dateTwo = Console.ReadLine().ToLower();
+
+                    DateTime date1 = DateTime.Parse(dateOne);
+                    DateTime date2 = DateTime.Parse(dateTwo);
+
+                    TimeSpan diff = date2 - date1;
+
+                    var years = diff.TotalDays / 365;
+                    var months = years * 12;
+
+                    Console.WriteLine("Years: " + years.ToString());
+                    Console.WriteLine("Months: " + months.ToString());
+                    Console.WriteLine("Days: " + diff.TotalDays.ToString());
+                    Console.WriteLine("Hours: " + diff.TotalHours.ToString());
+                    Console.WriteLine("Minutes: " + diff.TotalMinutes.ToString());
+                }
+                catch(Exception)
+                {
+                Console.WriteLine("Error in input");  
+                }
+                Console.WriteLine("Do you want to enter another pair of dates?");
+                string repeat = Console.ReadLine();
+
+                if (repeat != "y" || repeat != "Y")
+                {
+                    result = false;
+                }
+            }
+        }
+    }
+}

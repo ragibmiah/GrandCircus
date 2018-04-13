@@ -1,0 +1,5 @@
+/Users/ragibmiah/Projects/Prelab2/Prelab2/obj/x86/Debug/Prelab2.csproj.CoreCompileInputs.cache
+/Users/ragibmiah/Projects/Prelab2/Prelab2/bin/Debug/Prelab2.exe
+/Users/ragibmiah/Projects/Prelab2/Prelab2/bin/Debug/Prelab2.pdb
+/Users/ragibmiah/Projects/Prelab2/Prelab2/obj/x86/Debug/Prelab2.exe
+/Users/ragibmiah/Projects/Prelab2/Prelab2/obj/x86/Debug/Prelab2.pdb

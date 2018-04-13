@@ -1,0 +1,5 @@
+/Users/ragibmiah/Projects/PreworkLab/PreworkLab1/bin/Debug/PreworkLab1.exe
+/Users/ragibmiah/Projects/PreworkLab/PreworkLab1/bin/Debug/PreworkLab1.pdb
+/Users/ragibmiah/Projects/PreworkLab/PreworkLab1/obj/x86/Debug/PreworkLab1.csproj.CoreCompileInputs.cache
+/Users/ragibmiah/Projects/PreworkLab/PreworkLab1/obj/x86/Debug/PreworkLab1.exe
+/Users/ragibmiah/Projects/PreworkLab/PreworkLab1/obj/x86/Debug/PreworkLab1.pdb

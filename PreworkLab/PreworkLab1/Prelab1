@@ -1,0 +1,82 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace Lab1
+{
+    class Lab
+    {
+        static void Main(string[] args)
+        {
+            Numbers();
+        }
+        public static void Numbers()
+        {
+            int x, y;
+            string repeat;
+            bool answer = true;
+            List<int> numbers = new List<int>();
+
+            while (answer == true)
+            {
+                Console.WriteLine("Enter your first integer:");
+                x = Convert.ToInt32(Console.ReadLine());
+
+                Console.WriteLine("Enter the second integer with the same amount of digits:");
+                y = Convert.ToInt32(Console.ReadLine());
+
+
+                if (x.ToString().Length == 1 || y.ToString().Length == 1)
+                {
+                    continue;
+                }
+                else if (x.ToString().Length == y.ToString().Length)
+                {
+                    var combined = 0;
+
+                    string first_number = x.ToString();
+                    string second_number = y.ToString();
+
+
+                    for (int i = 0; i < first_number.Length; i++)
+                    {
+                        int input1 = (int)Char.GetNumericValue(first_number[i]);
+                        int input2 = (int)Char.GetNumericValue(second_number[i]);
+                        combined = input1 + input2;
+                        numbers.Add(combined);
+                    }
+                    int first = numbers[0];
+                    bool condition2 = true;
+                    for (int i = 1; i < numbers.Count; ++i)
+                    {
+                        if (first != numbers[i])
+                        {
+                            condition2 = false;
+                        }
+                    }  
+                    if (condition2)
+                    {
+                        Console.WriteLine("True");
+                        continue;
+                    }
+                    else
+                    {
+                        Console.WriteLine("False");
+                    }
+
+                    Console.WriteLine("Would you like to run the program again? (Y or N)");
+                    repeat = Console.ReadLine();
+
+                    if (repeat.ToLower() == "y")
+                    {
+                        continue;
+                    }
+                    else{
+                        answer = false;
+                    }
+                }
+            }
+        }
+    }
+}
